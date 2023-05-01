@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 .imglogo{
     width: 100px;
 }
 body{
-    background-color: black;
+    background-image: linear-gradient(#eaeaea00, #e1edee00),
+    url("./assests/imagenes/FONDO.jpg");
+    background-size: cover;
 }
