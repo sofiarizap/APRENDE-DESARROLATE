@@ -20,11 +20,11 @@ public class AprendeDesarrollateApplication {
 	public CommandLineRunner initData(RepositorioProductos repositorioProductos){
 		return (args) ->{
 
-			Productos producto1 = new Productos("Curso Primeros Auxilios para Perros y Gatos","Aprende todo para brindar la ayuda necesaria a tu mascota en incidentes urgentes.","", Categoria.ANIMALES, true);
-			Productos producto2 = new Productos("Curso Cocina Vegana","Aprende diversas preparaciones para una alimentación mas consciente.","", Categoria.COMIDA, true);
-			Productos producto3 = new Productos("Curso Cocina Internacional ","Aprende las mejores recetas de la gastronomia internacional de países como Francia, India, Italia, Mexico, entre muchos mas. ","", Categoria.COMIDA, true);
-			Productos producto4 = new Productos("Curso Velas Artesanales","Aprende a desarrollar un hermoso arte con el cual puedes emprender tu propio negocio.","", Categoria.MANUALIDADES, true);
-			Productos producto5 = new Productos("Curso Bolsos Trapillo","Aprende desde cero el paso a paso para crear hermosos bolsos que pueden ayudarte a emprender tu propio negocio.","", Categoria.MANUALIDADES, true);
+			Productos producto1 = new Productos("Curso Primeros Auxilios para Perros y Gatos","Aprende todo para brindar la ayuda necesaria a tu mascota en incidentes urgentes.","./assests/imagenes/PRIMEROS AUXILIOS.png", Categoria.ANIMALES, true);
+			Productos producto2 = new Productos("Curso Cocina Vegana","Aprende diversas preparaciones para una alimentación mas consciente.","./assests/imagenes/COCINA VEGANA.png", Categoria.COMIDA, true);
+			Productos producto3 = new Productos("Curso Cocina Internacional ","Aprende las mejores recetas de la gastronomia internacional de países como Francia, India, Italia, Mexico, entre muchos mas. ","./assests/imagenes/COCINA INTERNACIONAL.png", Categoria.COMIDA, true);
+			Productos producto4 = new Productos("Curso Velas Artesanales","Aprende a desarrollar un hermoso arte con el cual puedes emprender tu propio negocio.","./assests/imagenes/CURSO VELAS.png", Categoria.MANUALIDADES, true);
+			Productos producto5 = new Productos("Curso Bolsos Trapillo","Aprende desde cero el paso a paso para crear hermosos bolsos que pueden ayudarte a emprender tu propio negocio.","./assests/imagenes/BOLSO TRAPILLO.png", Categoria.MANUALIDADES, true);
 			repositorioProductos.save(producto1);
 			repositorioProductos.save(producto2);
 			repositorioProductos.save(producto3);

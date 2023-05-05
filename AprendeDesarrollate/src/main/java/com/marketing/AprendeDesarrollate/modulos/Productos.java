@@ -51,6 +51,9 @@ public class Productos {
   public Categoria getCategoria() {
     return Categoria;
   }
+  public String getImagen() {
+    return Imagen;
+  }
 
   public void setCategoria(Categoria categoria) {
     Categoria = categoria;

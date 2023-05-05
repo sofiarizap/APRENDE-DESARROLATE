@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="992df414-1722-4428-b559-70948591a880" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/DTOS/ProductosDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/Enums/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/controladores/ProductosControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/modulos/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/AprendeDesarrollateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/AprendeDesarrollateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/modulos/Pruductos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/repositorios/RepositorioProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/repositorios/RepositorioProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/controladores/ProductosControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/controladores/ProductosControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/assests/imagenes/COCINA INTERNACIONAL.png" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/assests/imagenes/COCINA INTERNACIONAL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

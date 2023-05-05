@@ -1,5 +1,6 @@
 package com.marketing.AprendeDesarrollate.controladores;
 
+import com.marketing.AprendeDesarrollate.DTOS.ProductosDTO;
 import com.marketing.AprendeDesarrollate.modulos.Productos;
 import com.marketing.AprendeDesarrollate.repositorios.RepositorioProductos;
 import org.springframework.beans.factory.annotation.Autowired;
