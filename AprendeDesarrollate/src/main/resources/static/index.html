@@ -64,7 +64,7 @@
         </div>
       </div>
       <div class="secc-cards" id="secc-cards" >
-        
+
 
         <div  class="secc-cards d-flex justify-content-center flex-wrap " >
           <div v-for="producto of productosFiltrados" class="card border col-3 border-2 border-white  bg-dark bg-success p-2 text-white bg-opacity-50 m-3 d-flex flex-column"  >
@@ -74,7 +74,7 @@
                 <h7 class="card-title text-center"> <strong>{{producto.nombre.toUpperCase()}}</strong></h7>
                 <img :src="producto.imagen" class=" m-0 p-0 img-producto"
                 alt="producto.nombre">
-                <p class="card-text descripcion">{{producto.descripcion}} </p>
+                <p class="card-text descripcion">{{producto.descripcion}}</p>
               </div>
               <div class="card.botton d-flex justify-content-around">
                 <a  class="btn btn-dark ">Ver más</a>
