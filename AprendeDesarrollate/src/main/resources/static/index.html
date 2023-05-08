@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./assests/imagenes/favicon.png" type="image/x-icon">
-    <title>Detalles| Inicio</title>
+    <title>Aprende Y Desarrollate| Inicio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -56,9 +56,9 @@
           </div>
           <nav class="navbar d-flex align-items-center">
             <form class="d-flex justify-content-around align-items-center" role="search">
-              <input class="form-control " type="search" v-model="inputBusqueda" @input="busquedaCruzada"
+              <input class="form-control input-busqueda " type="search" v-model="inputBusqueda" @input="busquedaCruzada"
                 placeholder="Nombre Producto" aria-label="Search">
-              <button class="btn btn-outline-dark ms-2" type="submit">Buscar</button>
+              <button class="btn btn-outline-dark ms-2" type="submit"><strong>Buscar</strong></button>
             </form>
           </nav>
         </div>
@@ -84,7 +84,7 @@
         </div>
 
 
-      </div>
+      </div>7
       <h3 v-if="productosFiltrados && !productosFiltrados.length" class="d-flex justify-content-center">Curso no encontrado</h3>
       </main>
       
@@ -92,9 +92,9 @@
         <div class="mt-5 col-lg-3 align-items-center">
           <h4 class="text-center text-warning">NUESTRAS REDES</h4>
           <ul class="list-unstyled d-flex justify-content-around mb-0 mt-3 text-warning mx-auto redes">
-            <li ><a class="link-dark-hover text-muted" href="https://www.instagram.com/adstoreboxes/?hl=en"><i class="fa-brands fa-instagram fa-2x redes "></i></a></li>
-            <li ><a class="link-dark-hover text-muted" href="https://www.facebook.com/adstoreboxes/"><i class="fa-brands fa-facebook fa-2x"> </i></a></li>
-            <li ><a class="link-dark-hover text-muted" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-2x text-warning redes"></i></a></li>
+            <a class="link-dark-hover text-muted" href="https://www.instagram.com/adstoreboxes/?hl=en"><img class="img-redes" src="./assests/imagenes/instagram.png" alt=""></a>
+            <a class="link-dark-hover text-muted" href="https://www.facebook.com/adstoreboxes/"><img  class="img-redes"src="./assests/imagenes/facebook.png" alt=""></a>
+            <a class="link-dark-hover text-muted" href="https://web.whatsapp.com/"><img class="img-redes" src="./assests/imagenes/whatsapp.png" alt=""></a>
           </ul>
       </div>
       </footer>

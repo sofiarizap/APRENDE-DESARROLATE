@@ -29,3 +29,9 @@ body{
 .descripcion{
     text-align: justify;
 }
+.input-busqueda{
+    font-weight:300;
+}
+.img-redes{
+    width:10px;
+}
