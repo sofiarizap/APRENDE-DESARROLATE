@@ -75,4 +75,7 @@ public class Productos {
   public void setCategoria(Categoria categoria) {
     Categoria = categoria;
   }
+
+  public Boolean getActivo() { return Activo;
+  }
 }

@@ -25,17 +25,18 @@ import java.util.Optional;
     private com.marketing.AprendeDesarrollate.Enums.Categoria Categoria;
     private Boolean Activo;
 
-    public ProductosDTO(Optional<Productos> byId) { }
+    public ProductosDTO() { }
 
-    public ProductosDTO(String nombre, String descripcion,String imagen,String imagenBanner,String certificado,String video,Categoria categoria, Boolean activo ) {
-      this.Nombre = nombre;
-      this.Descripcion = descripcion;
-      this.Imagen = imagen;
-      this.ImagenBanner = imagenBanner;
-      this.Certificado = certificado;
-      this.Video = video;
-      this.Categoria = categoria;
-      this.Activo= activo;
+    public ProductosDTO(Productos productos ) {
+      this.Id = productos.getId();
+      this.Nombre = productos.getNombre();
+      this.Descripcion = productos.getDescripcion();
+      this.Imagen = productos.getImagen();
+      this.ImagenBanner = productos.getImagenBanner();
+      this.Certificado = productos.getCertificado();
+      this.Video = productos.getVideo();
+      this.Categoria = productos.getCategoria();
+      this.Activo= productos.getActivo();
     }
     public Long getId() {
       return Id;

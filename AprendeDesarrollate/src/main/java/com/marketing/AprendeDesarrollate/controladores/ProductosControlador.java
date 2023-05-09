@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import java.util.stream.Collectors;
 
 import java.util.List;
 
@@ -19,13 +20,14 @@ public class ProductosControlador {
   private RepositorioProductos repositorioProductos;
 
   @RequestMapping("/productos")
-  public List<Productos> getAll() {
-    return repositorioProductos.findAll();
+  public List<ProductosDTO> getAll() {
+    return repositorioProductos.findAll().stream().map(producto -> new ProductosDTO(producto)).collect(Collectors.toList());
   }
 
-  @GetMapping("/accounts/{id}")
-  public ProductosDTO getAccount(@PathVariable Long id){
-    return new ProductosDTO(repositorioProductos.findById(id)) ;
+  @GetMapping("/productos/{id}")
+  public ProductosDTO getId(@PathVariable Long id){
+    ProductosDTO Id = new ProductosDTO(repositorioProductos.findById(id).orElse(null));
+    return Id;
   }
 
 }
