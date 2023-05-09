@@ -19,15 +19,21 @@ import java.util.Optional;
     private String Nombre;
     private String Descripcion;
     private String Imagen;
+    private String ImagenBanner;
+    private String Certificado;
+    private String Video;
     private com.marketing.AprendeDesarrollate.Enums.Categoria Categoria;
     private Boolean Activo;
 
     public ProductosDTO(Optional<Productos> byId) { }
 
-    public ProductosDTO(String nombre, String descripcion,String imagen, Categoria categoria, Boolean activo ) {
+    public ProductosDTO(String nombre, String descripcion,String imagen,String imagenBanner,String certificado,String video,Categoria categoria, Boolean activo ) {
       this.Nombre = nombre;
       this.Descripcion = descripcion;
       this.Imagen = imagen;
+      this.ImagenBanner = imagenBanner;
+      this.Certificado = certificado;
+      this.Video = video;
       this.Categoria = categoria;
       this.Activo= activo;
     }
@@ -54,6 +60,18 @@ import java.util.Optional;
 
     public void setCategoria(Categoria categoria) {
       Categoria = categoria;
+    }
+    public String getImagenBanner() {
+    return ImagenBanner;
+  }
+    public String getImagen() {
+    return Imagen;
+  }
+    public String getCertificado() {
+      return Certificado;
+    }
+    public String getVideo() {
+      return Video;
     }
 }
 

@@ -39,53 +39,17 @@
       <main>
       <div class="titulo">
       </div>
-      <div class="checksearch d-flex flex-wrap justify-content-center" >
+      <div class=" d-flex flex-wrap justify-content-center" >
         
-        <div class="filtro-productos  d-flex justify-content-between align-content-center flex-wrap">
-          <div
-            class="d-flex align-content-center flex-wrap align-items-center m-0 my-3 p-0 me-5 categorias justify-content-center">
-            <div class="check m-3" id="checkCategory">
-  
-              <template v-if="categorias" v-for="categoria of categorias">
-                <input v-model="checked" @change="busquedaCruzada" type="checkbox" class="btn-check" :id="categoria"
-                  :value="categoria" autocomplete="off" checked>
-                <label class="btn btn-dark ms-3 me-2" :for="categoria">{{categoria}}</label>
-              </template>
-  
-            </div>
-          </div>
-          <nav class="navbar d-flex align-items-center">
-            <form class="d-flex justify-content-around align-items-center" role="search">
-              <input class="form-control " type="search" v-model="inputBusqueda" @input="busquedaCruzada"
-                placeholder="Nombre Producto" aria-label="Search">
-              <button class="btn btn-outline-dark ms-2" type="submit">Buscar</button>
-            </form>
-          </nav>
-        </div>
+        
       </div>
       <div class="secc-cards" id="secc-cards" >
 
 
-        <div  class="secc-cards d-flex justify-content-center flex-wrap " >
-          <div v-for="producto of productosFiltrados" class="card border col-3 border-2 border-white  bg-dark bg-success p-2 text-white bg-opacity-50 m-3 d-flex flex-column"  >
-            <div class="text-center " > 
-              
-              <div class="card-body" style="height: 59vh;">
-                <h7 class="card-title text-center"> <strong>{{producto.nombre.toUpperCase()}}</strong></h7>
-                <img :src="producto.imagen" class=" m-0 p-0 img-producto"
-                alt="producto.nombre">
-                <p class="card-text descripcion">{{producto.descripcion}}</p>
-              </div>
-              <div class="card.botton d-flex justify-content-around">
-                <a  class="btn btn-dark ">Ver más</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
 
       </div>
-      <h3 v-if="productosFiltrados && !productosFiltrados.length" class="d-flex justify-content-center">Curso no encontrado</h3>
       </main>
       
       <footer>
