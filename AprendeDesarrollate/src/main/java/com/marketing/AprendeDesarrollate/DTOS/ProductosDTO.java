@@ -1,22 +1,16 @@
 package com.marketing.AprendeDesarrollate.DTOS;
 
 import com.marketing.AprendeDesarrollate.Enums.Categoria;
+import com.marketing.AprendeDesarrollate.modulos.Productos;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import com.marketing.AprendeDesarrollate.Enums.Categoria;
-import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.awt.*;
+import java.util.Optional;
 
-  @Entity
+@Entity
   public class ProductosDTO {
     @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -28,7 +22,7 @@ import java.awt.*;
     private com.marketing.AprendeDesarrollate.Enums.Categoria Categoria;
     private Boolean Activo;
 
-    public ProductosDTO() { }
+    public ProductosDTO(Optional<Productos> byId) { }
 
     public ProductosDTO(String nombre, String descripcion,String imagen, Categoria categoria, Boolean activo ) {
       this.Nombre = nombre;

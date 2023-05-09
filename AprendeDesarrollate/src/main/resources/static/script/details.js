@@ -1,45 +1,30 @@
-const {createApp} = Vue;
+const{createApp} = Vue; 
 
 createApp({
   data(){
     return{
       url:"",
-      productos:"",
-      productosActivos:"",
-      categorias: [],
-      productosFiltrados: [],
-      checked: [],
-      inputBusqueda: "",
-      
+      id: "",
+      urlParameter:"",
+      parameter : undefined,
+      producto:"",
     }
   },
   created(){
-    this.url = "/api/productos";
-    this.loadData() 
-
-    
-  },  
+    this.urlParameter = location.search
+    this.parameter = new URLSearchParams(this.urlParameter)
+    this.id = this.parameter.get("id")
+    this.loadData()
+  },
   methods:{
     loadData: function(){
+      this.url =`/api/productos/${this.id}`
       axios.get(this.url)
       .then( res =>{
-        this.productos= res.data;
-        this.productosActivos= this.productos.filter(producto => producto.Activo == true)
-        this.productosFiltrados = res.data.map(producto => ({ ...producto }));
-        this.categorias = [... new Set(this.productos.map(producto => producto.categoria))];
-        console.log(this.productos)
+        this.producto= res.data
       })
       .catch((error)=>{console.log(error)})
-    },
-    busquedaCruzada: function () {
-      let filtroInput = this.productos.filter(producto => producto.nombre.toLowerCase().includes(this.inputBusqueda.toLowerCase()))
-      if (this.checked.length === 0) {
-          this.productosFiltrados = filtroInput
-      } else {
-          let filtroCheck = filtroInput.filter(categoria => this.checked.includes(categoria.categoria))
-          this.productosFiltrados = filtroCheck
-      }
   },
-    
-  } 
+
+}
 }).mount("#app")
