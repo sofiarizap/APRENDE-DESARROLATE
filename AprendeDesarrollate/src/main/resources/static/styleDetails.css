@@ -6,15 +6,41 @@
 .imglogo{
     width: 100px;
 }
+body{
+    background-color: black;
+}
 .banner{
     display: flex;
     flex-direction: column;
     background-size: cover;
     background-position: center;
+    height: 50vh;
 }
 .fuenteAnton{
     font-family: 'Anton', sans-serif;
 }
 .fuentePoppins{
     font-family: 'Poppins', sans-serif;
+}
+.titulo-banner{
+    font-size: 5rem;
+    position: absolute;
+    top: 36vh; 
+    left: 52vh;
+}
+.video{
+    position: relative;
+    top: -50px;
+}
+.book{
+    width: 80vh;
+}
+footer{
+    background-image: linear-gradient(#eaeaea00, #e1edee00),
+    url("./assests/imagenes/FONDO.jpg");
+    background-size: cover;
+}
+.img-redes{
+    width: 30px;
+    margin: 5px;
 }

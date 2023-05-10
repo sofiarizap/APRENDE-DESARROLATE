@@ -21,6 +21,7 @@ import java.util.Optional;
     private String Imagen;
     private String ImagenBanner;
     private String Certificado;
+    private String Book;
     private String Video;
     private com.marketing.AprendeDesarrollate.Enums.Categoria Categoria;
     private Boolean Activo;
@@ -37,6 +38,7 @@ import java.util.Optional;
       this.Video = productos.getVideo();
       this.Categoria = productos.getCategoria();
       this.Activo= productos.getActivo();
+      this.Book=productos.getBook();
     }
     public Long getId() {
       return Id;
@@ -71,8 +73,12 @@ import java.util.Optional;
     public String getCertificado() {
       return Certificado;
     }
+    public String getBook() {
+    return Book;
+  }
     public String getVideo() {
       return Video;
     }
+
 }
 

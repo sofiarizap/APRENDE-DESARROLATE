@@ -18,21 +18,25 @@ public class Productos {
   private Long Id;
   private String Nombre;
   private String Descripcion;
+  private String DescCompleta;
   private String Imagen;
   private String ImagenBanner;
   private String Certificado;
+  private String Book;
   private String Video;
   private Categoria Categoria;
   private Boolean Activo;
 
   public Productos() { }
 
-  public Productos(String nombre, String descripcion,String imagen,String imagenBanner,String certificado,String video, Categoria categoria, Boolean activo ) {
+  public Productos(String nombre, String descripcion,String descCompleta, String imagen,String imagenBanner,String certificado,String book, String video, Categoria categoria, Boolean activo ) {
     this.Nombre = nombre;
     this.Descripcion = descripcion;
+    this.DescCompleta = descCompleta;
     this.Imagen = imagen;
     this.ImagenBanner = imagenBanner;
     this.Certificado = certificado;
+    this.Book= book;
     this.Video= video;
     this.Categoria = categoria;
     this.Activo= activo;
@@ -71,6 +75,14 @@ public class Productos {
   public String getVideo() {
     return Video;
   }
+  public String getBook() {
+    return Book;
+  }
+  public String getDescCompleta() {
+    return DescCompleta;
+  }
+
+
 
   public void setCategoria(Categoria categoria) {
     Categoria = categoria;

@@ -17,9 +17,9 @@
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black container-fluid">
           <div class="container-fluid w-100">
-            <a class="navbar-brand ms-3 d-flex justify-content-center align-items-center" href="#">
+            <a class="navbar-brand ms-3 fuentePoppins d-flex justify-content-center align-items-center" href="#">
               <img src="./assests/imagenes/LOGO_7-01-removebg-preview.png" alt="logo" class="imglogo col-md-5 col-8" >
-              <h1>APRENDE Y DESARROLLATE </h1>
+              <h1 class="fuentePoppins">APRENDE Y DESARROLLATE </h1>
             </a>
             <button class="navbar-toggler border-0 bgb px-3 py-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -38,13 +38,15 @@
         </nav>
       </header>
       <main>
-      <div class="titulo">
-      </div>
-      <div class=" d-flex flex-wrap justify-content-center" >
-        <img :src="producto.imagenBanner" class="w-100 banner">
-        <h2 class="fuenteAnton" > <strong>{{producto.nombre.toUpperCase()}}</strong> </h2>
-        
-      </div>
+        <div class=" d-flex flex-wrap justify-content-center" >
+          <img :src="producto.imagenBanner" class="w-100 banner">
+          <h2 class="fuenteAnton text-light titulo-banner" > <strong>{{producto.nombre.toUpperCase()}}</strong> </h2>
+          <iframe v-if="producto.nombre=='Curso Cocina Vegana' "class="position-relative video" width="760" height="515" src="https://www.youtube.com/embed/mQ2ElH5_JfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4 class="fuentePoppins text-light text-center w-75">Si te gustó nuestra Master Class reserva tu cupo al curso completo y recibirás el EBOOK en pdf que contiene todas las recetas + la CERTIFICACIÓN ONLINE de este curso de Cocina Vegana.</h4>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img :src="producto.book" class="book">
+        </div>
       <div class="secc-cards" id="secc-cards" >
 
 
@@ -55,12 +57,12 @@
       </main>
       
       <footer>
-        <div class="mt-5 col-lg-3 align-items-center">
-          <h4 class="text-center text-warning">NUESTRAS REDES</h4>
-          <ul class="list-unstyled d-flex justify-content-around mb-0 mt-3 text-warning mx-auto redes">
-            <li ><a class="link-dark-hover text-muted" href="https://www.instagram.com/adstoreboxes/?hl=en"><i class="fa-brands fa-instagram fa-2x redes "></i></a></li>
-            <li ><a class="link-dark-hover text-muted" href="https://www.facebook.com/adstoreboxes/"><i class="fa-brands fa-facebook fa-2x"> </i></a></li>
-            <li ><a class="link-dark-hover text-muted" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fa-2x text-warning redes"></i></a></li>
+        <div class="mt-5 col-lg-3 d-flex align-items-center justify-content-center fuentePoppins">
+          <h4 class="text-center "><strong>NUESTRAS REDES</strong> </h4>
+          <ul class="list-unstyled d-flex justify-content-around align-items-center mb-0 text-warning mx-auto redes">
+            <a class="link-dark-hover text-muted" href="https://www.instagram.com/adstoreboxes/?hl=en"><img class="img-redes" src="./assests/imagenes/instagram.png" alt=""></a>
+            <a class="link-dark-hover text-muted" href="https://www.facebook.com/adstoreboxes/"><img  class="img-redes"src="./assests/imagenes/facebook.png" alt=""></a>
+            <a class="link-dark-hover text-muted" href="https://web.whatsapp.com/"><img class="img-redes" src="./assests/imagenes/whatsapp.png" alt=""></a>
           </ul>
       </div>
       </footer>
