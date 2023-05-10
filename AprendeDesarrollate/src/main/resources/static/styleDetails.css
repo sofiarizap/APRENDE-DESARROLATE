@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imglogo{
+    width: 100px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+.fuenteAnton{
+    font-family: 'Anton', sans-serif;
+}
+.fuentePoppins{
+    font-family: 'Poppins', sans-serif;
+}

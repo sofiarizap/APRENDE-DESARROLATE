@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="992df414-1722-4428-b559-70948591a880" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/AprendeDesarrollateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/java/com/marketing/AprendeDesarrollate/AprendeDesarrollateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/styleDetails.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AprendeDesarrollate/src/main/resources/static/vegetarian.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
