@@ -66,6 +66,7 @@ footer{
 .img-check{
     width: 25px;
     height: 25px;
+    margin: 5px;
 }
 .checks{
     background-color: white;
@@ -75,4 +76,5 @@ footer{
 }
 .certificado{
     width: 90vh;
+    height: 40vh;
 }
