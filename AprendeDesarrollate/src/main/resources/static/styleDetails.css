@@ -7,7 +7,10 @@
     width: 80px;
 }
 body{
-    background-color: black;
+    background-image: linear-gradient(#080110b8, #02181b83),
+    url("./assests/imagenes/fondo2.jpg");
+    background-position: center;
+    background-size: cover;
 }
 .banner{
     display: flex;
