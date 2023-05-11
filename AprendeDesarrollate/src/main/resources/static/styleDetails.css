@@ -33,7 +33,7 @@ body{
     top: -50px;
 }
 .book{
-    width: 80vh;
+    width: 90vh;
 }
 footer{
     background-image: linear-gradient(#eaeaea00, #e1edee00),
@@ -67,7 +67,7 @@ footer{
 .img-check{
     width: 25px;
     height: 25px;
-    margin: 5px;
+    margin: 8px;
 }
 .checks{
     background-color: white;
@@ -78,4 +78,10 @@ footer{
 .certificado{
     width: 90vh;
     height: 50vh;
+}
+.img-compra{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    filter: grayscale(30%);
 }
