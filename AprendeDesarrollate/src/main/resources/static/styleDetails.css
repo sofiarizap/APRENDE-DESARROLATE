@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .imglogo{
-    width: 100px;
+    width: 80px;
 }
 body{
     background-color: black;
@@ -25,7 +25,7 @@ body{
 .titulo-banner{
     font-size: 5rem;
     position: absolute;
-    top: 36vh; 
+    top: 32vh; 
     left: 52vh;
 }
 .video{
@@ -51,6 +51,7 @@ footer{
 }
 .descripcion{
     text-align: justify;
+    font-size: 1rem;
 }
 .inscribete{
     border: 1px solid wheat;
