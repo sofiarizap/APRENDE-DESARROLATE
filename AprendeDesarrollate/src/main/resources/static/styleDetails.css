@@ -44,3 +44,35 @@ footer{
     width: 30px;
     margin: 5px;
 }
+.curso{
+    background-image: linear-gradient(#eaeaea00, #e1edee00),
+    url("./assests/imagenes/FONDO.jpg");
+    background-size: cover;
+}
+.descripcion{
+    text-align: justify;
+}
+.inscribete{
+    border: 1px solid wheat;
+    border-radius: 20px;
+}
+.ahora{
+    border-top-right-radius: 21px; 
+    border-top-left-radius: 21px;
+    background-image: linear-gradient(#eaeaea00, #e1edee00),
+    url("./assests/imagenes/FONDO.jpg");
+    background-size: cover
+}
+.img-check{
+    width: 25px;
+    height: 25px;
+}
+.checks{
+    background-color: white;
+    border-bottom-right-radius: 21px; 
+    border-bottom-left-radius: 21px;
+    height: 100%;
+}
+.certificado{
+    width: 90vh;
+}

@@ -44,8 +44,60 @@
           <iframe v-if="producto.nombre=='Curso Cocina Vegana' "class="position-relative video" width="760" height="515" src="https://www.youtube.com/embed/mQ2ElH5_JfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <h4 class="fuentePoppins text-light text-center w-75">Si te gustó nuestra Master Class reserva tu cupo al curso completo y recibirás el EBOOK en pdf que contiene todas las recetas + la CERTIFICACIÓN ONLINE de este curso de Cocina Vegana.</h4>
         </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img :src="producto.book " class="book">
+          <h1 class="fuentePoppins curso w-100 text-center"><strong>CURSO COMPLETO</strong> </h1>
+        </div>
         <div class="d-flex justify-content-center">
-          <img :src="producto.book" class="book">
+          <div class="descripcion fuentePoppins text-light col-6 m-3">
+            <p v-if="producto.nombre=='Curso Cocina Vegana' ">
+              Conocerás diversas preparaciones del mundo culinario en torno a una de las gastronomías más populares y conscientes de estos últimos años, La cocina vegana.  Vas a aprender con la mejor profesora de origen chileno, Nicole Palominos.  Chef y Profesora, que lleva años buscando las mejores recetas para sus alumnos.
+              <br>
+              Junto a ella podrás vivir, sentir la Cocina vegana más que como una cocina, una filosofía de vida. Nicole te enseñara y traspasara todos sus conocimientos adquiridos a través de los años y su experiencia como chef cocinera especialista en alimentos veganos y basados en plantas.
+              <br>
+              A través de este curso tu profesora te enseñará todo lo que necesitas saber paso a paso, Está pensado para que puedas aprender desde cero y sin mayores dificultades, pero con la entrega de técnicas y herramientas que te servirán para toda la vida no es necesario tener conocimientos previos para cocinar como un verdadero chef.
+            </p>
+          </div>
+          <div class=" col-3 inscribete d-flex fuentePoppins flex-column">
+            <div >
+              <h4 class="text-center p-3 ahora" ><strong>
+                INSCRÍBETE AHORA <br>Promoción por tiempo limitado
+              </strong>
+              </h4>
+            </div>
+            <div class="d-flex flex-column p-3 checks">
+              <div class="d-flex">
+                <img src="./assests/imagenes/checked.png" class="img-check" alt="">
+                <p>Pago Único en tu modena local</p>
+              </div>
+              <div class="d-flex">
+                <img src="./assests/imagenes/checked.png" class="img-check" alt="">
+                <p>Comienza desde hoy</p>
+              </div>
+              <div class="d-flex">
+                <img src="./assests/imagenes/checked.png" class="img-check" alt="">
+                <p>Idioma: Español</p>
+              </div>
+              <div class="d-flex">
+                <img src="./assests/imagenes/checked.png" class="img-check" alt="">
+                <p>Garantía de 7 días</p>
+              </div>
+              <div class="d-flex">
+                <img src="./assests/imagenes/checked.png" class="img-check" alt="">
+                <p>Certificación al Finalizar</p>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+        <div class="d-flex justify-content-center">
+            <img :src="producto.certificado " class="certificado col-6">
+            <div class="col-5 fuentePoppins d-flex align-items-center text-light">
+              <p>Somos cursosdecocina, una escuela con 8 años de experiencia capacitando a cientos de entusiastas alumnos que hoy cocinan junto a sus familias o han levantado respetados emprendimientos.<br><br>
+                Se parte de este movimiento y cumple el sueño de formarte como cocinero, pastelero o panadero con nuestros cursos en línea. <br><br>
+                No dejes tus sueños para después!</p>
+            </div>
         </div>
       <div class="secc-cards" id="secc-cards" >
 
