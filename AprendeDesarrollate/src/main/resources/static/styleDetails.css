@@ -86,3 +86,7 @@ footer{
     flex-direction: column;
     filter: grayscale(30%);
 }
+.cupos{
+    background-color: red;
+    position: static;
+}
