@@ -90,3 +90,7 @@ footer{
     background-color: red;
     position: static;
 }
+.boton-blanco{
+    background-color: white;
+    border-radius: 10px;
+}
