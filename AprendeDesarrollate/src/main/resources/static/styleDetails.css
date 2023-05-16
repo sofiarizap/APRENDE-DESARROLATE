@@ -93,4 +93,6 @@ footer{
 .boton-blanco{
     background-color: white;
     border-radius: 10px;
+    padding: 6px;
+    border: 1px solid white;
 }
