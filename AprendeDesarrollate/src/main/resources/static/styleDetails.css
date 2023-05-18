@@ -88,7 +88,8 @@ footer{
 }
 .cupos{
     background-color: red;
-    position: static;
+    position: sticky;
+    top: 20px;
 }
 .boton-blanco{
     background-color: white;
