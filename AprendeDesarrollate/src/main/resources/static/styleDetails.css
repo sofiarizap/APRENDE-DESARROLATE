@@ -99,3 +99,8 @@ footer{
     padding: 6px;
     border: 1px solid white;
 }
+.comra-ahora{
+    position: relative;
+
+    top: -50px;
+}
