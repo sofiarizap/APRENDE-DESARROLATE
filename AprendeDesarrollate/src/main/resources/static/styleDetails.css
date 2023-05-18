@@ -31,6 +31,7 @@ body{
 }
 .video{
     position: relative;
+
     top: -50px;
 }
 .book{
@@ -89,7 +90,8 @@ footer{
 .cupos{
     background-color: red;
     position: sticky;
-    top: 20px;
+    z-index: 999;
+    top: 0px;
 }
 .boton-blanco{
     background-color: white;
