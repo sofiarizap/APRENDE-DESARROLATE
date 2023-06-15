@@ -99,8 +99,16 @@ footer{
     padding: 6px;
     border: 1px solid white;
 }
-.comra-ahora{
+.compra-ahora{
+    font-size: 5rem;
     position: relative;
-
-    top: -50px;
+    text-align: center;
+    justify-content: center;
+    top: -170px;
+    text-transform: uppercase;
+}
+.bg-yellow{
+    background-image: linear-gradient(#eaeaea00, #e1edee00),
+    url("./assests/imagenes/FONDO.jpg");
+    background-size: cover;
 }
