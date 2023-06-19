@@ -25,15 +25,18 @@ font-family: 'Work Sans', sans-serif;
 .fuentePoppins{
     font-family: 'Poppins', sans-serif;
 }
+@keyframes mover{
+    0%{
+        transform: translate(70%);
+    }
+}
 .titulo-banner{
     font-size: 5rem;
     position: absolute;
     top: 32vh; 
-    left: 52vh;
 }
 .video{
     position: relative;
-
     top: -50px;
 }
 .book{
